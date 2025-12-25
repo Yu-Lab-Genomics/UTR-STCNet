@@ -1,0 +1,11 @@
+"MAP_U_V": {
+    "train_file": ["data/MPA/MPA_U_train_val.csv", "data/MPA/MPA_V_Random_train_val.csv"],
+    "val_file": ["data/MPA/MPA_U_test.csv"],
+    "main_task": 0
+}
+
+"MAP_U_H_V": {
+    "train_file": ["data/MPA/MPA_U_train_val.csv", "data/MPA/MPA_V_Random_train_val.csv", "data/MPA/MPA_H_train_val.csv"],
+    "val_file": ["data/MPA/MPA_U_test.csv"],
+    "main_task": 0
+}

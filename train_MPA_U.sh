@@ -1,0 +1,2 @@
+#  large  k=3  [0.5, 0.5, 0.5] padd_length = 120
+CUDA_VISIBLE_DEVICES=1 python train.py --seq_type utr --prefix UTR_MRPA_U --label-class rl  --batchsize 256  --lr 1e-5 --epochs 120 --seq_max_len 120 --train_file data/MPA/MPA_U_train_val.csv --val_file data/MPA/MPA_U_test.csv
