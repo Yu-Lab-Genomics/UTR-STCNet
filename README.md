@@ -1,7 +1,5 @@
 #  UTR-STCNet
-This repository provides the official implementation of **UTR-STCNet**,  an interpretable deep learning model introduced in the paper:
-
-**Decoding Translation-Related Functional Sequences in 5’UTRs Using Interpretable Deep Learning Models**
+This repository provides the code for the paper "UTR-STCNet: Decoding Translation-Related Functional Sequences in 5’UTRs Using Interpretable Deep Learning Models".
 
 ## Requirements
 - torch == 2.4.1
